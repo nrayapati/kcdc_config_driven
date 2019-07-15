@@ -1,0 +1,9 @@
+pipeline_template: 'mavenPipeline'
+
+java:
+  version: 1.8
+  args: '-xms1024'
+maven:
+  version: 3.3.1
+  command: 'clean install'
+  args: ''
